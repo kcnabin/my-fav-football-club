@@ -87,3 +87,46 @@ a, a:active, a:visited {
 	margin-left: 75px;
 	font-family: Verdana;
 }
+
+.stadium-info {
+	display: flex;
+	height: 45px;
+	padding: 30px;
+	justify-content: center;
+	align-items: center;
+	color: #1F2937;
+	font-weight: bold;
+	font-size: 30px;
+	text-transform: uppercase;	
+}
+
+/*greatest stadium in the world*/
+.greatest-stadium {
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	height: 400px;
+	gap: 15px;
+	
+}
+
+.greatest-stadium div img {
+	width: 325px;
+	border-radius: 25px;
+}
+
+.greatest-stadium div {
+	width: 340px;
+	margin-left: 10px;
+}
+
+.greatest-stadium div h4 {
+	font-weight: bold;
+	text-transform: uppercase;
+	text-align: center;
+}
+
+.greatest-stadium div p {
+	font-size: 14px;
+	padding: 10px;
+}
