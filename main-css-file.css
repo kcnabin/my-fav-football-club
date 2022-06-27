@@ -130,3 +130,70 @@ a, a:active, a:visited {
 	font-size: 14px;
 	padding: 10px;
 }
+
+
+/*quote section*/
+#quote-section {
+	display: flex;
+	justify-content: center;
+	align-items: flex-end;
+	font-size: 36px;
+	font-style: italic;
+	height: 470px;
+	padding: 40px;
+	color: white;
+	/*color: #1f2937;*/
+	/*background-color: #e5e7eb;*/
+	background-image: url(images/santiago-bernabeu.png);
+	background-size: auto 470px;
+
+}
+
+#quote-section div {
+	border: 1px solid white;
+	border-radius: 20px;
+	padding: 20px;
+}
+
+#quote-section div p {
+	text-align: right;
+	font-size: 24px;
+}
+
+#sign-up .sign-up-message {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	color: white;
+	height: 100px;
+	font-size: 24px;
+	font-weight: bold;
+	background-color: #3b82f6;
+	/*padding: 20px;*/
+	margin: 50px;
+	border-radius: 10px;
+	padding: 10px;
+}
+
+#sign-b {
+	font-size: 16px;
+	border: 3px solid white;
+	border-radius: 10px;
+	padding: 10px;
+	
+}
+
+#footer {
+	height: 60px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: white;
+	background-color: #1f2937;
+	font-weight: bold;
+	padding: 10px;
+}
+
+#footer p a:hover {
+	color: red;
+}
